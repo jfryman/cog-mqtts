@@ -1,0 +1,13 @@
+---
+cog_bundle_version: 4
+name: mqtts
+description: Send MQTT messages to MQTT bus
+version: 0.0.1
+docker:
+  image: jfryman/cog-mqtts:0.0.1
+commands:
+  publish:
+    description: Publish a payload to the MQTT bus
+    executables: 
+    rules:
+      - allow
